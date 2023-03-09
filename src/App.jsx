@@ -15,7 +15,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="  min-w-[375px] max-w-[1440px] min-h-[100vh] text-white font-['Poppins] " style={{backgroundImage: `url('./main_bg.png')`}}>
+    <div className=" bg-cover bg-center bg-no-repeat  min-w-[375px] max-w-[1440px] min-h-[100vh] text-white font-['Poppins] " style={{backgroundImage: `url('./main_bg.png')`}}>
       {/* <Test/> */}
       <LeftNavbar/>
       <RightNavbar/>
