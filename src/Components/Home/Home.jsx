@@ -3,7 +3,7 @@ import "animate.css";
 
 function Home() {
   return (
-    <div className="px-44 w-full h-full grid grid-cols-2 ">
+    <div className="px-44 w-full h-full grid grid-cols-1 md:grid-cols-2  ">
       <div className=" ">
         <h2 className="text-[2rem] animate__animated animate__pulse">
           Let me help you to ease your{" "}
