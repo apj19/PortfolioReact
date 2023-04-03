@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="grid min-h-full place-items-center bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="grid min-h-full place-items-center bg-gray-50 px-6 py-24 sm:py-32 ">
       <div className="text-center">
         <h1 className="mt-4 text-[2.3rem] font-bold tracking-tight md:text-[3.2rem]">
           Let simplifiy Front-End Developement
