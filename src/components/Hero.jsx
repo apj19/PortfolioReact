@@ -26,7 +26,7 @@ function Hero() {
             <i className="fa-brands fa-square-github"></i>
           </a>
         </div>
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 text-[1.5rem]">
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 text-[1.5rem] gap-y-4">
           <div className="bg-white rounded-full">
             <img className="h-16 w-16" src="../react.png" alt="" />
           </div>
