@@ -1,31 +1,14 @@
-import LeftNavbar from "./Components/Navbars/LeftNavbar";
-import RightNavbar from "./Components/Navbars/RightNavbar";
-import MobileNavBar from "./Components/Navbars/MobileNavBar";
-
-import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Contact from "./Components/Contact/Contact";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
 
 function App() {
   // const [count, setCount] = useState(0)
   // [#D85C36]
   return (
-    <div
-      className=" bg-cover bg-center bg-no-repeat  min-w-[375px] max-w-[1440px] min-h-[100vh] text-white font-['Poppins] flex justify-center items-center "
-      style={{ backgroundImage: `url('./main_bg.png')` }}
-    >
-      <LeftNavbar />
-      <RightNavbar />
-      <MobileNavBar />
+    <div className=" bg-cover bg-center bg-no-repeat  min-w-[375px] max-w-[1440px] min-h-[100vh]  font-['Poppins] bg-gray-50  ">
+      <NavBar />
 
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+      <Home />
     </div>
   );
 }
