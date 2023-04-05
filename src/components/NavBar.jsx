@@ -5,15 +5,15 @@ function NavBar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <nav className="w-full z-10 fixed top-0 left-0 h-16 bg-white drop-shadow-sm px-10 flex items-center justify-between ">
-      <p className="text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer ">
-        APJCR
-      </p>
+      <div className="flex gap-4 justify-center items-end">
+        <p className="text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer ">
+          APJ
+        </p>
+        <p className="text-[0.8rem]">9730187072</p>
+      </div>
 
       <div className="hidden md:block">
         <ul className="flex gap-6 tracking-wide">
-          <li className="hover:text-blue-500 cursor-pointer font-[500]">
-            Home
-          </li>
           <li className="hover:text-blue-500 cursor-pointer font-[500]">
             Portfolio
           </li>
@@ -45,9 +45,6 @@ function NavBar() {
           </div>
 
           <ul className="flex flex-col gap-6 tracking-wide">
-            <li className="hover:text-blue-500 cursor-pointer font-[500]">
-              Home
-            </li>
             <li className="hover:text-blue-500 cursor-pointer font-[500]">
               Portfolio
             </li>
