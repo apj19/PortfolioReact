@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hero from "../components/Hero";
+import Timeline from "../components/Timeline";
 
 function Home() {
   const [showDetails, setShowDetails] = useState(false);
@@ -7,6 +8,7 @@ function Home() {
   return (
     <main className="pt-16 font-['Poppins']">
       <Hero />
+      <Timeline />
       <section className="bg-white py-16 px-10 ">
         <h2 className="text-[1.2rem] py-4 text-center font-[500] text-blue-500 ">
           PORTFOLIO
