@@ -4,8 +4,8 @@ function Hero() {
   return (
     <div className="grid gird-cols-1 md:grid-cols-2  place-items-center bg-white px-6 py-12  ">
       <div className="text-center">
-        <h1 className="mt-4 text-[2rem] font-bold tracking-tight md:text-[3rem]">
-          Learning is Obession
+        <h1 className="mt-4 bg-gradient-to-r from-violet-500 to-fuchsia-500  text-[2rem] bg-clip-text font-bold tracking-tight md:text-[3rem] text-transparent">
+          Learning is obsession
         </h1>
         <p className="mt-6 text-[1.3rem] md:text-[1.5rem]  leading-7 text-gray-600">
           Hi, I'm Akshay Jadhav. A React developer
@@ -51,7 +51,7 @@ function Hero() {
         </div>
       </div>
       <div>
-        <img className="rounded-xl" src="../hero.jpg" alt="" />
+        <img className="rounded-xl" src="../jshero.jpg" alt="" />
       </div>
     </div>
   );

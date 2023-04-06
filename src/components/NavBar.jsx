@@ -18,7 +18,7 @@ function NavBar() {
             Portfolio
           </li>
           <li className="hover:text-blue-500 cursor-pointer font-[500]">
-            About
+            Experience
           </li>
           <li className="hover:text-blue-500 cursor-pointer font-[500]">
             Contact

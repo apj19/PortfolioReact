@@ -8,6 +8,7 @@ function Home() {
   return (
     <main className="pt-16 font-['Poppins']">
       <Hero />
+
       <Timeline />
       <section className="bg-white py-16 px-10 ">
         <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
