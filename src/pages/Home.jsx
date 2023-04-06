@@ -10,7 +10,7 @@ function Home() {
       <Hero />
       <Timeline />
       <section className="bg-white py-16 px-10 ">
-        <h2 className="text-[1.2rem] py-4 text-center font-[500] text-blue-500 ">
+        <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
           PORTFOLIO
         </h2>
         {/* Ecommrace Project */}
@@ -49,10 +49,18 @@ function Home() {
             </button>
 
             <div className=" md:text-[1.2rem] mt-4">
-              <a className=" font-[500] mr-4" href="http://" target="_blank">
+              <a
+                className=" font-[500] mr-4"
+                href="https://github.com/apj19/comfy"
+                target="_blank"
+              >
                 Code <i className="fa-brands fa-github"></i>
               </a>
-              <a className=" font-[500]" href="http://" target="_blank">
+              <a
+                className=" font-[500]"
+                href="https://comfyapjcr.netlify.app/"
+                target="_blank"
+              >
                 Live Demo{" "}
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
