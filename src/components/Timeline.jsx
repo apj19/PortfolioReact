@@ -4,7 +4,7 @@ function Timeline() {
   return (
     <section className="px-10">
       <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
-        LEARNING PATH
+        NEXT LEARNING
       </h2>
       <ol class="items-center flex justify-center flex-col md:flex-row">
         <li class="relative mb-6 sm:mb-0">
