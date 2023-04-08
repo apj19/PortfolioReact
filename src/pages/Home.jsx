@@ -267,7 +267,7 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-center px-6 drop-shadow-xl">
-            <h2 className="text-xl font-[500]  md:text-2xl">UI Design </h2>
+            <h2 className="text-xl font-[500]  md:text-2xl">SEARCH COUNTRY</h2>
 
             <p className="mt-4 text-[0.8rem] md:text-[1rem] text-center text-gray-500 ">
               Buitl using Js Dom manipulation.User can search country by name or
