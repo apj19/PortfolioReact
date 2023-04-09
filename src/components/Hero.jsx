@@ -8,7 +8,7 @@ function Hero() {
           Learning is obsession , Codeing is Tool
         </h1>
         <p className="mt-6 text-[1.3rem] md:text-[1.5rem]  leading-7 text-gray-600">
-          Hi, I'm Akshay Jadhav. A React developer
+          Hi, I'm Akshay Jadhav. Currently, A React developer
         </p>
         <div className="mt-8 flex items-center justify-center gap-x-6 text-[1.5rem]">
           <a
