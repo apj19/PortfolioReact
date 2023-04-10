@@ -28,7 +28,7 @@ function Timeline() {
           </div>
           <div class="mt-3 sm:pr-8">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-              Node-Express
+              Node-Express-MangoDb
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Apr-Jun
