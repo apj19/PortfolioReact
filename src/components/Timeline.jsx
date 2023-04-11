@@ -96,7 +96,7 @@ function Timeline() {
               Oct-Dec
             </time>
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-              To get understanding of cloud technologies.
+              To get understanding of cloud technologies.GCP
             </p>
           </div>
         </li>
