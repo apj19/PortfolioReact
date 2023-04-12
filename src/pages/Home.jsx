@@ -8,15 +8,43 @@ function Home() {
   return (
     <main className="pt-16 font-['Poppins']">
       <Hero />
+      <section>
+        <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
+          TECH STACK
+        </h2>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 text-[1.5rem] gap-y-4">
+          <div className="bg-gray-50 rounded-full">
+            <img className="h-16 w-16" src="../react.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-8 w-8" src="../jslogo2.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-8 w-8" src="../html.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-14 w-14" src="../css.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-8 w-8" src="../redux.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-8 w-8" src="../tailwind.png" alt="" />
+          </div>
+          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
+            <img className="h-12 w-12" src="../msql.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-      <Timeline />
-      <section className="bg-white py-16 px-10 ">
+      {/* <Timeline /> */}
+      <section className=" py-16 px-10 ">
         <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
           PORTFOLIO
         </h2>
         {/* Ecommrace Project */}
 
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10 drop-shadow-xl bg-white mb-20 rounded-xl border-t ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10  mb-20 rounded-xl  ">
           <div className="h-64 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"
@@ -76,7 +104,7 @@ function Home() {
         </section>
 
         {/* netflix */}
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10 drop-shadow-xl bg-white mb-20 rounded-xl border-t  ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20  ">
           <div className="h-64 bg-cover md:col-start-2">
             <img
               className="object-fit w-full h-full rounded-md"
@@ -137,7 +165,7 @@ function Home() {
 
         {/* {Ui Project} */}
 
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10 drop-shadow-xl bg-white mb-20 rounded-xl border-t ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20 ">
           <div className="h-64 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"
@@ -197,7 +225,7 @@ function Home() {
         </section>
 
         {/* PokeDex  */}
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10 drop-shadow-xl bg-white mb-20 rounded-xl border-t  ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20   ">
           <div className="h-64 bg-cover md:col-start-2">
             <img
               className="object-fit w-full h-full rounded-md"
@@ -257,7 +285,7 @@ function Home() {
 
         {/* {Countries Data} */}
 
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10 drop-shadow-xl bg-white mb-20 rounded-xl border-t ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20  ">
           <div className="h-64 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"

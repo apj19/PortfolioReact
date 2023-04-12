@@ -4,7 +4,7 @@ import "animate.css";
 function NavBar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
-    <nav className="w-full z-10 fixed top-0 left-0 h-16 bg-white drop-shadow-sm px-10 flex items-center justify-between ">
+    <nav className="w-full  h-16  drop-shadow-sm px-10 flex items-center justify-between ">
       <div className="flex gap-4 justify-center items-end">
         <p className="text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer ">
           APJ

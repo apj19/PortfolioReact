@@ -2,13 +2,15 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="grid gird-cols-1 md:grid-cols-2  place-items-center bg-white px-6 py-12  ">
-      <div className="text-center">
-        <h1 className="mt-4 bg-gradient-to-r from-violet-500 to-fuchsia-500  text-[2rem] bg-clip-text font-bold tracking-tight md:text-[3rem] text-transparent">
-          Learning is obsession , Codeing is Tool
+    <div className="grid gird-cols-1 md:grid-cols-2 gap-4  place-items-center px-10 py-6  ">
+      <div className="text-center md:text-start row-start-2 md:row-start-1 md:col-start-1 ">
+        <h1 className="mt-4  text-[1.8rem] font-bold tracking-tight md:text-[2.5rem] ">
+          React Developer with strong JavaScript skills.
         </h1>
-        <p className="mt-6 text-[1.3rem] md:text-[1.5rem]  leading-7 text-gray-600">
-          Hi, I'm Akshay Jadhav. Currently, A React developer
+        <p className="mt-6  md:text-[1.2rem] leading-7 ">
+          Hi, I'm Akshay Jadhav. I build frontend web applications that are
+          highly performant, efficient and fully documented for seamless
+          integration into any environment.
         </p>
         <div className="mt-8 flex items-center justify-center gap-x-6 text-[1.5rem]">
           <a
@@ -26,32 +28,9 @@ function Hero() {
             <i className="fa-brands fa-square-github"></i>
           </a>
         </div>
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 text-[1.5rem] gap-y-4">
-          <div className="bg-gray-50 rounded-full">
-            <img className="h-16 w-16" src="../react.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-8 w-8" src="../jslogo2.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-8 w-8" src="../html.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-14 w-14" src="../css.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-8 w-8" src="../redux.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-8 w-8" src="../tailwind.png" alt="" />
-          </div>
-          <div className="bg-gray-50 h-16 w-16 rounded-full flex justify-center items-center">
-            <img className="h-12 w-12" src="../msql.png" alt="" />
-          </div>
-        </div>
       </div>
-      <div>
-        <img className="rounded-xl" src="../jshero.jpg" alt="" />
+      <div className="row-start-1">
+        <img className="rounded-xl" src="../hero-img.webp" alt="" />
       </div>
     </div>
   );
