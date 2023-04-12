@@ -36,7 +36,7 @@ function NavBar() {
       {showMobileNav && (
         <div
           onClick={() => setShowMobileNav(false)}
-          className="fixed animate__animated animate__fadeInLeft top-0 left-0 w-full h-[100vh] bg-white flex flex-col justify-start items-center pt-4 px-10"
+          className="fixed animate__animated animate__fadeInLeft top-0 left-0 w-full h-[100vh] bg-[#090c10] text-white flex flex-col justify-start items-center pt-4 px-10"
         >
           <div className="mb-8 w-full flex justify-end text-[1.5rem] cursor-pointer">
             <button onClick={() => setShowMobileNav(false)}>

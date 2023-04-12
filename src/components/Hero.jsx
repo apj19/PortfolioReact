@@ -12,7 +12,7 @@ function Hero() {
           highly performant, efficient and fully documented for seamless
           integration into any environment.
         </p>
-        <div className="mt-8 flex items-center justify-center gap-x-6 text-[1.5rem]">
+        <div className="mt-8 flex items-center justify-center md:justify-start gap-x-6 text-[1.5rem]">
           <a
             className="hover:text-blue-500"
             href="https://www.linkedin.com/in/akshay-jadhav-01737711b/"
