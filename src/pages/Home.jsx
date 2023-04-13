@@ -102,15 +102,15 @@ function Home() {
         </section>
 
         {/* netflix */}
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20  ">
-          <div className="h-80 bg-cover md:col-start-2">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2  py-10   mb-20  ">
+          <div className="h-52 md:h-80 bg-cover md:col-start-2">
             <img
               className="object-fit w-full h-full rounded-md"
               src="../netflix.JPG"
               alt=""
             />
           </div>
-          <div className=" flex flex-col justify-center items-start px-6 drop-shadow-xl md:row-start-1">
+          <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
             <h2 className="text-xl font-[500]  md:text-2xl">NETFLIX CLONE</h2>
 
             <p className="mt-4   ">
@@ -120,7 +120,7 @@ function Home() {
               seasons with each epsiode information.
             </p>
 
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 my-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
                 <span className="mr-4">{check}</span> Firebase Authentication
               </p>
@@ -163,8 +163,8 @@ function Home() {
 
         {/* {Ui Project} */}
 
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20 ">
-          <div className="h-80 bg-cover">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 py-10   mb-20 ">
+          <div className="h-52 md:h-80 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"
               src="../ui.JPG"
@@ -172,7 +172,7 @@ function Home() {
             />
           </div>
 
-          <div className=" flex flex-col justify-center items-start px-6 drop-shadow-xl">
+          <div className=" flex flex-col justify-center items-start drop-shadow-xl">
             <h2 className="text-xl font-[500]  md:text-2xl">UI Design </h2>
 
             <p className="mt-4  ">
@@ -180,7 +180,7 @@ function Home() {
               build diffrent UI using CSS and Talwind CSS. There are total 18
               Different UI design from begineer level to advance level.
             </p>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 my-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
                 <span className="mr-4">{check}</span> Firebase Authentication
               </p>
@@ -222,15 +222,15 @@ function Home() {
         </section>
 
         {/* PokeDex  */}
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20   ">
-          <div className="h-80 bg-cover md:col-start-2">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 py-10   mb-20   ">
+          <div className="h-52 md:h-80 bg-cover md:col-start-2">
             <img
               className="object-fit w-full h-full rounded-md"
               src="../pokemon.JPG"
               alt=""
             />
           </div>
-          <div className=" flex flex-col justify-center items-start px-6 drop-shadow-xl md:row-start-1">
+          <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
             <h2 className="text-xl font-[500]  md:text-2xl">POKEDEX</h2>
 
             <p className="mt-4  ">
@@ -239,7 +239,7 @@ function Home() {
               evolution.From nav bar diffrent types of pokemon can be found.
             </p>
 
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 my-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
                 <span className="mr-4">{check}</span> Firebase Authentication
               </p>
@@ -283,7 +283,7 @@ function Home() {
         {/* {Countries Data} */}
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20  ">
-          <div className="h-80 bg-cover">
+          <div className="h-52 md:h-80 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"
               src="../dom.JPG"
@@ -291,7 +291,7 @@ function Home() {
             />
           </div>
 
-          <div className=" flex flex-col justify-center items-start px-6 drop-shadow-xl">
+          <div className=" flex flex-col justify-center items-start ">
             <h2 className="text-xl font-[500]  md:text-2xl">SEARCH COUNTRY</h2>
 
             <p className="mt-4  ">
@@ -300,7 +300,7 @@ function Home() {
               population. The population graph is shown.
             </p>
 
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 my-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
                 <span className="mr-4">{check}</span> Firebase Authentication
               </p>
