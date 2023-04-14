@@ -1,28 +1,37 @@
 import React, { useState } from "react";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <nav className="w-full  h-16  drop-shadow-sm px-10 flex items-center justify-between ">
       <div className="flex gap-4 justify-center items-end">
-        <p className="text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer ">
-          APJ
-        </p>
+        <Link to="/">
+          <p className="text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer ">
+            APJ
+          </p>
+        </Link>
         <p className="text-[0.8rem]">9730187072</p>
       </div>
 
       <div className="hidden md:block">
         <ul className="flex gap-6 tracking-wide">
-          <li className="hover:text-blue-500 cursor-pointer font-[500]">
-            Portfolio
-          </li>
-          <li className="hover:text-blue-500 cursor-pointer font-[500]">
-            Experience
-          </li>
-          <li className="hover:text-blue-500 cursor-pointer font-[500]">
-            Contact
-          </li>
+          <Link to="portfolio">
+            <li className="hover:text-blue-500 cursor-pointer font-[500]">
+              Portfolio
+            </li>
+          </Link>
+          <Link to="experience">
+            <li className="hover:text-blue-500 cursor-pointer font-[500]">
+              Experience
+            </li>
+          </Link>
+          <Link to="contact">
+            <li className="hover:text-blue-500 cursor-pointer font-[500]">
+              Contact
+            </li>
+          </Link>
         </ul>
       </div>
 

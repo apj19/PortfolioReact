@@ -1,6 +1,10 @@
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,8 +15,13 @@ function App() {
     bg-[#1b0143] text-white "
     >
       <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-      <Home />
       <Footer />
     </div>
   );
