@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" viewBox="0 0 476.1 345.8">
+  <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="2.53" y1="232.919" x2="215.942" y2="232.919">
+    <stop offset="0" stop-color="#6400ff"></stop>
+    <stop offset=".132" stop-color="#6b02fb"></stop>
+    <stop offset=".328" stop-color="#7f09f0"></stop>
+    <stop offset=".562" stop-color="#a014dd"></stop>
+    <stop offset=".825" stop-color="#cd23c4"></stop>
+    <stop offset="1" stop-color="#ef2fb1"></stop>
+  </linearGradient>
+  <path d="M16.1 139.7h0c18-18 47.3-18 65.3 0l121.1 121.1c18 18 18 47.3 0 65.3h0c-18 18-47.3 18-65.3 0L16.1 205c-18.1-18-18.1-47.2 0-65.3z" fill="url(#A)"></path>
+  <linearGradient id="B" gradientUnits="userSpaceOnUse" x1="2.53" y1="111.684" x2="215.942" y2="111.684">
+    <stop offset=".009" stop-color="#ff9199"></stop>
+    <stop offset=".295" stop-color="#fb799f"></stop>
+    <stop offset=".898" stop-color="#f13aae"></stop>
+    <stop offset="1" stop-color="#ef2fb1"></stop>
+  </linearGradient>
+  <path d="M16.1 204.9h0c-18-18-18-47.3 0-65.3l121-121.1c18-18 47.3-18 65.3 0h0c18 18 18 47.3 0 65.3L81.3 204.9c-18 18-47.2 18-65.2 0z" fill="url(#B)"></path>
+  <linearGradient id="C" gradientUnits="userSpaceOnUse" x1="257.241" y1="111.684" x2="470.652" y2="111.684">
+    <stop offset="0" stop-color="#6400ff"></stop>
+    <stop offset=".132" stop-color="#6b02fb"></stop>
+    <stop offset=".328" stop-color="#7f09f0"></stop>
+    <stop offset=".562" stop-color="#a014dd"></stop>
+    <stop offset=".825" stop-color="#cd23c4"></stop>
+    <stop offset="1" stop-color="#ef2fb1"></stop>
+  </linearGradient>
+  <path d="M457.1 204.9h0c-18 18-47.3 18-65.3 0l-121-121.1c-18-18-18-47.3 0-65.3h0c18-18 47.3-18 65.3 0l121.1 121.1c18 18 18 47.2-.1 65.3z" fill="url(#C)"></path>
+  <linearGradient id="D" gradientUnits="userSpaceOnUse" x1="257.241" y1="232.919" x2="470.652" y2="232.919">
+    <stop offset=".009" stop-color="#ff9199"></stop>
+    <stop offset=".295" stop-color="#fb799f"></stop>
+    <stop offset=".898" stop-color="#f13aae"></stop>
+    <stop offset="1" stop-color="#ef2fb1"></stop>
+  </linearGradient>
+  <path d="M457.1 139.7h0c18 18 18 47.3 0 65.3l-121 121.1c-18 18-47.3 18-65.3 0h0c-18-18-18-47.3 0-65.3l121.1-121.1c18-18 47.2-18 65.2 0z" fill="url(#D)"></path>
+  <g fill="#1b0044">
+    <circle transform="matrix(.3782 -.9257 .9257 .3782 -129.2837 152.1473)" cx="48.6" cy="172.3" r="46" opacity=".22"></circle>
+    <circle transform="matrix(.9781 -.208 .208 .9781 -26.5549 92.0827)" cx="424.6" cy="172.3" r="46" opacity=".22"></circle>
+  </g>
+</svg>
