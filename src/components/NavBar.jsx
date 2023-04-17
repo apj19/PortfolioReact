@@ -7,14 +7,12 @@ function NavBar() {
   return (
     <nav className="w-full  h-16  drop-shadow-sm px-10 flex items-center justify-between ">
       <div className="flex gap-4 justify-center items-end">
-        <Link to="/">
-          <div className=" flex gap-4 justify-center items-center text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer font-bold ">
-            <Link to="/">
-              <img className="h-8" src="./logo.svg" alt="" />
-            </Link>
-            APJ
-          </div>
-        </Link>
+        <div className=" flex gap-4 justify-center items-center text-[1.3rem] tracking-widest hover:drop-shadow-lg cursor-pointer font-bold ">
+          <Link to="/">
+            <img className="h-8" src="./logo.svg" alt="" />
+          </Link>
+          APJ
+        </div>
       </div>
 
       <div className="hidden md:block">
@@ -27,11 +25,6 @@ function NavBar() {
           <Link to="experience">
             <li className="hover:text-blue-500 cursor-pointer font-[500]">
               Experience
-            </li>
-          </Link>
-          <Link to="contact">
-            <li className="hover:text-blue-500 cursor-pointer font-[500]">
-              Contact
             </li>
           </Link>
         </ul>
@@ -61,9 +54,6 @@ function NavBar() {
             </li>
             <li className="hover:text-blue-500 cursor-pointer font-[500]">
               About
-            </li>
-            <li className="hover:text-blue-500 cursor-pointer font-[500]">
-              Contact
             </li>
           </ul>
         </div>

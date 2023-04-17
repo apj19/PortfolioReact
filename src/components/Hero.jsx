@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "@material-tailwind/react";
 
 function Hero() {
   return (
@@ -12,7 +13,7 @@ function Hero() {
           highly performant, efficient and fully documented for seamless
           integration into any environment.
         </p>
-        <div className="mt-8 flex items-center justify-center md:justify-start gap-x-6 text-[2.5rem]">
+        <div className="my-4 flex items-center justify-center md:justify-start gap-x-6 text-[2.5rem]">
           <a
             className="hover:text-blue-500"
             href="https://www.linkedin.com/in/akshay-jadhav-01737711b/"
@@ -28,6 +29,26 @@ function Hero() {
             <i className="fa-brands fa-square-github"></i>
           </a>
         </div>
+        <Tooltip content="Click to Copy" placement="top-start">
+          <p
+            className="mb-2 hover:text-pink-500"
+            onClick={(e) => {
+              navigator.clipboard.writeText(e.target.innerText);
+            }}
+          >
+            Call: +91 <span>9730187072</span>
+          </p>
+        </Tooltip>
+        <Tooltip content="Click to Copy" placement="top-start">
+          <p
+            className="hover:text-pink-500"
+            onClick={(e) => {
+              navigator.clipboard.writeText(e.target.innerText);
+            }}
+          >
+            Email: <span>akshayjadhav2133@gmail.com</span>{" "}
+          </p>
+        </Tooltip>
       </div>
       <div className="row-start-1">
         <img className="rounded-xl" src="../hero-img.webp" alt="" />

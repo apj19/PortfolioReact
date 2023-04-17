@@ -3,9 +3,9 @@ import React, { useState } from "react";
 function Contact() {
   const [showMessage, setShowMessage] = useState(false);
   return (
-    <div className="min-h-[85vh]">
+    <div className="min-h-[85vh] flex justify-center items-center">
       Contact
-      <p
+      {/* <p
         className="relative"
         onClick={() => {
           navigator.clipboard.writeText("Copy this text to clipboard");
@@ -21,7 +21,7 @@ function Contact() {
             Copied to Clipboard
           </span>
         )}
-      </p>
+      </p> */}
     </div>
   );
 }
