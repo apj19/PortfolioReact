@@ -36,7 +36,6 @@ function Home() {
         </div>
       </section>
 
-      {/* <Timeline /> */}
       <section className=" py-16 px-10 ">
         <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
           PORTFOLIO
@@ -53,7 +52,9 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start   ">
-            <h2 className="text-xl font-[500]  md:text-2xl">COMFY</h2>
+            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+              COMFY
+            </h2>
 
             <p className="mt-4   ">
               It is a E-commerace application for furtutniture. it allows users
@@ -81,21 +82,21 @@ function Home() {
               </p>
             </div>
 
-            <div className=" md:text-[1.2rem] mt-4 ">
+            <div className="  mt-4 ">
               <a
-                className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
+                className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2"
+                href="https://comfyapjcr.netlify.app/"
+                target="_blank"
+              >
+                Live Preview{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
                 href="https://github.com/apj19/comfy"
                 target="_blank"
               >
                 Code <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-                href="https://comfyapjcr.netlify.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
@@ -111,7 +112,9 @@ function Home() {
             />
           </div>
           <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
-            <h2 className="text-xl font-[500]  md:text-2xl">NETFLIX CLONE</h2>
+            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+              NETFLIX CLONE
+            </h2>
 
             <p className="mt-4   ">
               It is a netflix clone. User can search for movie or Tv with name.
@@ -141,21 +144,21 @@ function Home() {
               </p>
             </div>
 
-            <div className=" md:text-[1.2rem] mt-4">
+            <div className="  mt-4">
               <a
-                className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
+                className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2"
+                href="https://netflixcloneapjcr.netlify.app/"
+                target="_blank"
+              >
+                Live Preview{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
                 href="https://github.com/apj19/Netflix-Clone"
                 target="_blank"
               >
                 Code <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-                href="https://netflixcloneapjcr.netlify.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
@@ -173,7 +176,9 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start drop-shadow-xl">
-            <h2 className="text-xl font-[500]  md:text-2xl">UI Design </h2>
+            <h2 className="text-xl font-[600] tracking-wider md:text-2xl">
+              UI Design{" "}
+            </h2>
 
             <p className="mt-4  ">
               This is UI design project. worked on frontendmentor challanges to
@@ -201,21 +206,21 @@ function Home() {
               </p>
             </div>
 
-            <div className=" md:text-[1.2rem] mt-4">
+            <div className="  mt-4">
               <a
-                className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
+                className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2"
+                href="https://ui-design-project-apjcr.netlify.app/"
+                target="_blank"
+              >
+                Live Preview{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
                 href="https://github.com/apj19/FrontendMentorChallenges"
                 target="_blank"
               >
                 Code <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-                href="https://ui-design-project-apjcr.netlify.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
@@ -231,7 +236,9 @@ function Home() {
             />
           </div>
           <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
-            <h2 className="text-xl font-[500]  md:text-2xl">POKEDEX</h2>
+            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+              POKEDEX
+            </h2>
 
             <p className="mt-4  ">
               It is a pokemon finder app built with pokeapi.User can search for
@@ -260,21 +267,21 @@ function Home() {
               </p>
             </div>
 
-            <div className=" md:text-[1.2rem] mt-4">
+            <div className="  mt-4">
               <a
-                className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
+                className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2"
+                href="https://pokedexapjcr.netlify.app/"
+                target="_blank"
+              >
+                Live Preview{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
                 href="https://github.com/apj19/pkemon"
                 target="_blank"
               >
                 Code <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-                href="https://pokedexapjcr.netlify.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
@@ -292,7 +299,9 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start ">
-            <h2 className="text-xl font-[500]  md:text-2xl">SEARCH COUNTRY</h2>
+            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+              SEARCH COUNTRY
+            </h2>
 
             <p className="mt-4  ">
               Buitl using Js Dom manipulation.User can search country by name or
@@ -321,21 +330,21 @@ function Home() {
               </p>
             </div>
 
-            <div className=" md:text-[1.2rem] mt-4">
+            <div className="  mt-4">
               <a
-                className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
+                className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2"
+                href="https://countriesdataapjcr.netlify.app/"
+                target="_blank"
+              >
+                Live Preview{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
                 href="https://github.com/apj19/Dom-Manipulation/tree/main/Dom%20Mega%20Project"
                 target="_blank"
               >
                 Code <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-                href="https://countriesdataapjcr.netlify.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Tooltip } from "@material-tailwind/react";
 
 function Hero() {
   return (
@@ -29,26 +28,6 @@ function Hero() {
             <i className="fa-brands fa-square-github"></i>
           </a>
         </div>
-        <Tooltip content="Click to Copy" placement="top-start">
-          <p
-            className="mb-2 hover:text-pink-500"
-            onClick={(e) => {
-              navigator.clipboard.writeText(e.target.innerText);
-            }}
-          >
-            Call: +91 <span>9730187072</span>
-          </p>
-        </Tooltip>
-        <Tooltip content="Click to Copy" placement="top-start">
-          <p
-            className="hover:text-pink-500"
-            onClick={(e) => {
-              navigator.clipboard.writeText(e.target.innerText);
-            }}
-          >
-            Email: <span>akshayjadhav2133@gmail.com</span>{" "}
-          </p>
-        </Tooltip>
       </div>
       <div className="row-start-1">
         <img className="rounded-xl" src="../hero-img.webp" alt="" />
