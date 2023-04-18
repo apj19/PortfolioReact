@@ -7,26 +7,26 @@ function Card(data) {
       <div className="h-[55%] w-[100%]  rounded-[10px]  mb-4 ">
         <img
           className="h-full w-full object-cover transition-transform duration-700  "
-          src="../p1.JPG"
+          src={data.data.imgsrc}
           alt=""
         />
       </div>
       <div className="bg-gray-50 rounded-xl">
         <img className="h-8 w-8" src={data.data.typesrc} alt="" />
       </div>
-      <h3 className="px-4  mt-2">Curved Section Landing Page</h3>
+      <h3 className="px-4 uppercase mt-2">{data.data.name}</h3>
 
       <div className="text-[0.8rem] mt-4">
         <a
           className=" font-[500] mr-4 bg-blue-500 rounded-full px-4 py-2 "
-          href="https://github.com/apj19/pkemon"
+          href={data.data.codesrc}
           target="_blank"
         >
           Code <i className="fa-brands fa-github"></i>
         </a>
         <a
           className=" font-[500] bg-pink-500 rounded-full px-4 py-2"
-          href="https://pokedexapjcr.netlify.app/"
+          href={data.data.livePreviewSrc}
           target="_blank"
         >
           Live <i className="fa-solid fa-arrow-up-right-from-square"></i>
