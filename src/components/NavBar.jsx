@@ -16,18 +16,16 @@ function NavBar() {
       </div>
 
       <div className="hidden md:block">
-        <ul className="flex gap-6 tracking-wide">
-          <Link to="portfolio">
-            <li className="hover:text-blue-500 cursor-pointer font-[500]">
-              Portfolio
-            </li>
-          </Link>
-          <Link to="experience">
-            <li className="hover:text-blue-500 cursor-pointer font-[500]">
-              Experience
-            </li>
-          </Link>
-        </ul>
+        <Tooltip content="Click to Copy" placement="top-start">
+          <p
+            className="mb-2 hover:text-pink-500"
+            onClick={(e) => {
+              navigator.clipboard.writeText(e.target.innerText);
+            }}
+          >
+            <i className="fa-solid fa-phone"></i> +91 <span>9730187072</span>
+          </p>
+        </Tooltip>
       </div>
 
       <button
@@ -79,7 +77,7 @@ function NavBar() {
             </Link>
             <Link to="experience">
               <li className="hover:text-blue-500 cursor-pointer font-[500]">
-                Experience
+                Resume
               </li>
             </Link>
           </ul>

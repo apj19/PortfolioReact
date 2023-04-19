@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -27,6 +28,19 @@ function Hero() {
           >
             <i className="fa-brands fa-square-github"></i>
           </a>
+        </div>
+        <div className="  mt-4 flex items-center justify-center md:justify-start ">
+          <Link to="portfolio">
+            <p className=" font-[500] mr-4 bg-pink-500 rounded-full px-4 py-2">
+              Portfolio{" "}
+              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </Link>
+          <Link to="experience">
+            <p className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 ">
+              Resume <i className="fa-regular fa-file"></i>
+            </p>
+          </Link>
         </div>
       </div>
       <div className="row-start-1">

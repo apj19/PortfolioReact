@@ -289,7 +289,7 @@ function Home() {
 
         {/* {Countries Data} */}
 
-        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-20  ">
+        <section className="grid grid-cols-1 gap-4 md:grid-cols-2 px-2 md:px-10 py-10   mb-6  ">
           <div className="h-52 md:h-80 bg-cover">
             <img
               className="object-fit w-full h-full rounded-md"

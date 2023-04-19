@@ -1,6 +1,14 @@
 export const portfolioProjects=
 [
     {
+        name:'vs code clone',
+        imgsrc:'../vscode.JPG',
+        typesrc:'../tailwind.png',
+        codesrc:'https://github.com/apj19/VS-Code-Clone',
+        livePreviewSrc:'https://chic-hamster-37df2a.netlify.app/'
+    
+    },
+    {
     name:'Restaurant',
     imgsrc:'../restaurant.JPG',
     typesrc:'../react.png',
@@ -14,6 +22,14 @@ export const portfolioProjects=
     typesrc:'../react.png',
     codesrc:'https://github.com/apj19/ReducTodo',
     livePreviewSrc:'https://reduxtodoapjcr.netlify.app/'
+
+}
+,{
+    name:'Logos',
+    imgsrc:'../brandlogos.JPG',
+    typesrc:'../tailwind.png',
+    codesrc:'https://github.com/apj19/Logos',
+    livePreviewSrc:'https://css-logos.netlify.app/'
 
 }
 ,{
@@ -65,21 +81,7 @@ export const portfolioProjects=
     livePreviewSrc:'https://worldcountriesdataapjcr.netlify.app/'
 
 }
-,{
-    name:'vs code clone',
-    imgsrc:'../vscode.JPG',
-    typesrc:'../tailwind.png',
-    codesrc:'https://github.com/apj19/VS-Code-Clone',
-    livePreviewSrc:'https://chic-hamster-37df2a.netlify.app/'
 
-}
-,{
-    name:'Logos',
-    imgsrc:'../brandlogos.JPG',
-    typesrc:'../tailwind.png',
-    codesrc:'https://github.com/apj19/Logos',
-    livePreviewSrc:'https://css-logos.netlify.app/'
 
-}
 
 ]
