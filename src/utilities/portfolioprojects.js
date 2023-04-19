@@ -81,6 +81,14 @@ export const portfolioProjects=
     livePreviewSrc:'https://worldcountriesdataapjcr.netlify.app/'
 
 }
+,{
+    name:'Geometric Art',
+    imgsrc:'../art.JPG',
+    typesrc:'../react.png',
+    codesrc:'https://github.com/apj19/GemotricArt',
+    livePreviewSrc:'https://artapjcr.netlify.app/'
+
+}
 
 
 

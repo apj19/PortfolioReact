@@ -57,9 +57,10 @@ function Home() {
             </h2>
 
             <p className="mt-4   ">
-              It is a E-commerace application for furtutniture. it allows users
-              to browrse through differnt furnitures, User can apply differnt
-              types of filters. firebase login is used.
+              It is an E-commerce application for furniture. it allows users to
+              browse through different types of furniture, User can apply
+              multiple filters to sort the products. Users can add products to
+              their cart. firebase authentication is used.
             </p>
             <div className="grid md:grid-cols-2 gap-x-2 gap-y-2 my-4">
               <p>
@@ -117,18 +118,19 @@ function Home() {
             </h2>
 
             <p className="mt-4   ">
-              It is a netflix clone. User can search for movie or Tv with name.
-              alose user can see movies with different genres. for each moview
-              user can see cast and recommandations. For tv user can see all
-              seasons with each epsiode information.
+              It is a Netflix clone. Users can search for movies or Tv with
+              names. Users can see movies of different genres. for each movie,
+              the user can see the cast and recommendations. For tv users can
+              see all seasons with each episode's information. TMDB API is used
+              here.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
-                <span className="mr-4">{check}</span> Firebase Authentication
+                <span className="mr-4">{check}</span> Responsive
               </p>
               <p>
-                <span className="mr-4">{check}</span> Redux
+                <span className="mr-4">{check}</span> Search Movie
               </p>
               <p>
                 <span className="mr-4">{check}</span> Axios
@@ -137,10 +139,10 @@ function Home() {
                 <span className="mr-4">{check}</span> Tailwind CSS
               </p>
               <p>
-                <span className="mr-4">{check}</span> Protected Route
+                <span className="mr-4">{check}</span> Movie/Tv Details
               </p>
               <p>
-                <span className="mr-4">{check}</span> Product Filters
+                <span className="mr-4">{check}</span> Tv Season Details
               </p>
             </div>
 
@@ -181,28 +183,29 @@ function Home() {
             </h2>
 
             <p className="mt-4  ">
-              This is UI design project. worked on frontendmentor challanges to
-              build diffrent UI using CSS and Talwind CSS. There are total 18
-              Different UI design from begineer level to advance level.
+              This is a UI design project. worked on frontend mentor challenges
+              to build different UI using CSS and Tailwind CSS. There are a
+              total of 18 Different UI designs from beginner level to advanced
+              level. All designs are mobile responsive.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
-                <span className="mr-4">{check}</span> Firebase Authentication
+                <span className="mr-4">{check}</span> CSS
               </p>
               <p>
-                <span className="mr-4">{check}</span> Redux
+                <span className="mr-4">{check}</span> FlexBox
               </p>
               <p>
-                <span className="mr-4">{check}</span> Axios
+                <span className="mr-4">{check}</span> Grid
               </p>
               <p>
                 <span className="mr-4">{check}</span> Tailwind CSS
               </p>
               <p>
-                <span className="mr-4">{check}</span> Protected Route
+                <span className="mr-4">{check}</span> CSS Positions
               </p>
               <p>
-                <span className="mr-4">{check}</span> Product Filters
+                <span className="mr-4">{check}</span> Responsive
               </p>
             </div>
 
@@ -241,29 +244,30 @@ function Home() {
             </h2>
 
             <p className="mt-4  ">
-              It is a pokemon finder app built with pokeapi.User can search for
-              different pokemon. Each pokemon details can be seen with the
-              evolution.From nav bar diffrent types of pokemon can be found.
+              It is a Pokemon finder app built with Pokeapi. Users can search
+              for different Pokemon. Each Pokemon detail can be seen with its
+              evolution form. From the navigation bar, different types of
+              Pokemon can be found.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
-                <span className="mr-4">{check}</span> Firebase Authentication
+                <span className="mr-4">{check}</span> Responsive
               </p>
               <p>
-                <span className="mr-4">{check}</span> Redux
+                <span className="mr-4">{check}</span> Pagination
               </p>
               <p>
-                <span className="mr-4">{check}</span> Axios
+                <span className="mr-4">{check}</span> Error Handaling
               </p>
               <p>
                 <span className="mr-4">{check}</span> Tailwind CSS
               </p>
               <p>
-                <span className="mr-4">{check}</span> Protected Route
+                <span className="mr-4">{check}</span> Search Pokemon
               </p>
               <p>
-                <span className="mr-4">{check}</span> Product Filters
+                <span className="mr-4">{check}</span> Evoluation Details
               </p>
             </div>
 
@@ -300,33 +304,33 @@ function Home() {
 
           <div className=" flex flex-col justify-center items-start ">
             <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
-              SEARCH COUNTRY
+              COUNTRY DATA
             </h2>
 
             <p className="mt-4  ">
-              Buitl using Js Dom manipulation.User can search country by name or
-              capital of country. then sort ther result by name,capital and
-              population. The population graph is shown.
+              Built using JS Dom manipulation. Users can search country by name
+              or capital of the country. then sort the result by name, capital
+              and population. The population graph is shown.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 my-4">
               <p>
-                <span className="mr-4">{check}</span> Firebase Authentication
+                <span className="mr-4">{check}</span> JavaScript
               </p>
               <p>
-                <span className="mr-4">{check}</span> Redux
+                <span className="mr-4">{check}</span> Array Methods
               </p>
               <p>
-                <span className="mr-4">{check}</span> Axios
+                <span className="mr-4">{check}</span> HOF
               </p>
               <p>
                 <span className="mr-4">{check}</span> Tailwind CSS
               </p>
               <p>
-                <span className="mr-4">{check}</span> Protected Route
+                <span className="mr-4">{check}</span> Responsive
               </p>
               <p>
-                <span className="mr-4">{check}</span> Product Filters
+                <span className="mr-4">{check}</span> Search by name or capital
               </p>
             </div>
 
