@@ -11,7 +11,7 @@ function App() {
   // [#D85C36]
   return (
     <div
-      className=" min-w-[375px] max-w-[1440px] min-h-[100vh]  font-['Poppins'] 
+      className=" min-w-[375px] max-w-[1440px] min-h-[100vh]   font-['Inter']
     bg-[#1b0143] text-white "
     >
       <NavBar />

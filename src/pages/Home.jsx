@@ -5,10 +5,10 @@ import { check } from "../utilities/logo";
 
 function Home() {
   return (
-    <main className="pt-16 font-['Poppins']">
+    <main className="pt-16  ">
       <Hero />
       <section>
-        <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
+        <h2 className="text-[1.5rem] font-['Poppins'] py-4 text-center font-[500] text-blue-500 ">
           TECH STACK
         </h2>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 text-[1.5rem] gap-y-4">
@@ -37,7 +37,7 @@ function Home() {
       </section>
 
       <section className=" py-16 px-10 ">
-        <h2 className="text-[1.5rem] py-4 text-center font-[500] text-blue-500 ">
+        <h2 className="text-[1.5rem] font-['Poppins'] py-4 text-center font-[500] text-blue-500 ">
           PORTFOLIO
         </h2>
         {/* Ecommrace Project */}
@@ -52,7 +52,7 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start   ">
-            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+            <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider  md:text-2xl">
               COMFY
             </h2>
 
@@ -113,7 +113,7 @@ function Home() {
             />
           </div>
           <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
-            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+            <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider  md:text-2xl">
               NETFLIX CLONE
             </h2>
 
@@ -178,7 +178,7 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start drop-shadow-xl">
-            <h2 className="text-xl font-[600] tracking-wider md:text-2xl">
+            <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider md:text-2xl">
               UI Design{" "}
             </h2>
 
@@ -239,7 +239,7 @@ function Home() {
             />
           </div>
           <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
-            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+            <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider  md:text-2xl">
               POKEDEX
             </h2>
 
@@ -303,7 +303,7 @@ function Home() {
           </div>
 
           <div className=" flex flex-col justify-center items-start ">
-            <h2 className="text-xl font-[600] tracking-wider  md:text-2xl">
+            <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider  md:text-2xl">
               COUNTRY DATA
             </h2>
 
