@@ -1,7 +1,7 @@
 import React from "react";
 
 function Experience() {
-  return <div>Experience</div>;
+  return <main className="min-h-[85vh]">Experience</main>;
 }
 
 export default Experience;
