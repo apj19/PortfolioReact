@@ -19,9 +19,6 @@ function Experience() {
                 9730187072
               </p>
             </div>
-            <div className="flex justify-center items-center mt-4 md:mt-0 md:w-[30%] ">
-              <img className="w-40 h-40" src="../APJCR2.png" alt="" />
-            </div>
           </section>
           <div className="my-4">
             <h3 className="text-blue-500 text-[1.2rem]">Career Objective</h3>
