@@ -46,7 +46,7 @@ function Experience() {
                   Other Technologies:{" "}
                 </span>{" "}
                 Basic understanding of: - Angular, WebApi, C#, Microsoft Azure,
-                Node Js, Mango DB, Express
+                Node Js, Mongo DB, Express
               </li>
             </ul>
           </div>
