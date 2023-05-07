@@ -114,7 +114,7 @@ function Home() {
           </div>
           <div className=" flex flex-col justify-center items-start drop-shadow-xl md:row-start-1">
             <h2 className="text-xl font-['Poppins'] font-[600] tracking-wider  md:text-2xl">
-              NETFLIX CLONE
+              NETFLIX UI CLONE
             </h2>
 
             <p className="mt-4   ">
