@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "animate.css";
 import { Link } from "react-router-dom";
 import { Tooltip } from "@material-tailwind/react";
+import FileSaver from "file-saver";
 function NavBar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
@@ -90,11 +91,22 @@ function NavBar() {
                 Portfolio
               </li>
             </Link>
-            <Link to="experience">
+            <li
+              onClick={() => {
+                FileSaver.saveAs(
+                  "../resume.pdf",
+                  "Akshay_Jadhav_9730187072.pdf"
+                );
+              }}
+              className="hover:text-blue-500 cursor-pointer font-[500]"
+            >
+              Download Resume <i className="fa-solid fa-arrow-down"></i>
+            </li>
+            {/* <Link to="experience">
               <li className="hover:text-blue-500 cursor-pointer font-[500]">
                 Resume
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       )}

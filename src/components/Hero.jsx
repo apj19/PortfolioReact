@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FileSaver from "file-saver";
 
 function Hero() {
   return (
@@ -21,11 +22,19 @@ function Hero() {
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </p>
           </Link>
-          <Link to="experience">
+          <button
+            onClick={() => {
+              FileSaver.saveAs("../resume.pdf", "Akshay_Jadhav_9730187072.pdf");
+            }}
+            className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 "
+          >
+            Download Resume <i className="fa-solid fa-arrow-down"></i>
+          </button>
+          {/* <Link to="experience">
             <p className=" font-[500]  bg-blue-500 rounded-full px-4 py-2 ">
               Resume <i className="fa-regular fa-file"></i>
             </p>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="row-start-1">

@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -18,8 +19,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/experience" element={<Experience />} />
+        {/* <Route path="/experience" element={<Experience />} /> */}
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />
